@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+        body>section{
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+        }
+        body>section:first-child{
+            background-color: red;
+            left: 0;
+            top: 0;
+        }
+        body>section:nth-child(2){
+            background-color: green;
+            right: 0;
+            top: 0;
+        }
+        body>section:nth-child(3){
+            background-color: yellow;
+            left: 0;
+            bottom: 0;
+        }
+        body>section:nth-child(4){
+            background-color: deeppink;
+            right: 0;
+            bottom: 0;
+        }
+        body>section:first-child>div:first-child{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 50%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>section:first-child>div:first-child>div:first-child{
+            width: 60px;
+            height: 60px;
+            background-color: red;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body>section:nth-child(2)>div:first-child{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 50%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>section:nth-child(2)>div:first-child>div:first-child{
+            width: 60px;
+            height: 60px;
+            background-color: red;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body>section:nth-child(3)>div:first-child{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 50%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>section:nth-child(3)>div:first-child>div:first-child{
+            width: 60px;
+            height: 60px;
+            background-color: red;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body>section:nth-child(4)>div:first-child{
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 50%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>section:nth-child(4)>div:first-child>div:first-child{
+            width: 60px;
+            height: 60px;
+            background-color: red;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body>section:nth-child(5){
+            width: 150px;
+            height: 150px;
+            background-color: white;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body>section:nth-child(5)>div:first-child{
+            width: 75px;
+            height: 75px;
+            background-color: red;
+            border-radius: 50%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .corner{
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-radius:100%;
+            position: absolute;
+        }
+
+        #corner1{
+            top: calc(-15vw/2);
+            left: calc(-15vw/2);
+        }
+        #corner2{
+            top: calc(-15vw/2);
+            right: calc(-15vw/2);
+        }
+
+        #corner3{
+            right: calc(-15vw/2);
+            left: calc(-15vw/2);
+            top: calc(-15vw/2);
+            margin: auto;
+        }
+
+        #corner4{
+            bottom: calc(-15vw/2);
+            right: calc(-15vw/2);
+            left: calc(-15vw/2);
+        }
+
+        #corner5{
+            bottom: calc(-15vw/2);
+            right: calc(-15vw/2);
+        }
+
+        #corner6{
+            bottom: calc(-15vw/2);
+            right: calc(-15vw/2);
+            left: calc(-15vw/2);
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <section>
+        <div></div>
+    </section>
+
+    <div id="corner1" class="corner"></div>
+    <div id="corner2" class="corner"></div>
+    <div id="corner3" class="corner"></div>
+    <div id="corner4" class="corner"></div>
+    <div id="corner5" class="corner"></div>
+    <div id="corner6" class="corner"></div>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header{
+            background: white;
+            height: 100px;
+            position: relative;
+        }
+
+        header>nav{
+            background-color: white;
+
+            height: fit-content;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        header>nav>ul{
+            list-style: none;
+        }
+
+        header>nav>ul>li{
+            display: inline;
+            margin: 0px 10px;
+        }
+
+        footer>div{
+            background: gray;
+
+            position: absolute;
+            margin: auto;
+            right: 0;
+            left: 0;
+            text-align: center;
+        }
+
+        body>main>ul{
+            list-style: none;
+            background-color: aqua;
+            position: absolute;
+
+        }
+
+        aside{
+            background: purple;
+            width: 150px;
+            color: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+
+        main>aside>nav>ul{
+            list-style: none;
+            color: white;
+            margin: 0;
+        }
+
+        main{
+            position: relative;
+        }
+
+        main>section{
+            margin-left: 160px;
+
+            font-family: "New Amsterdam", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body>main>section>p:first-child{
+            margin-top: 0;
+        }
+
+        main>section>p:last-child{
+            margin-bottom: 0;
+        }
+
+        main>section>section{
+            background-color: rebeccapurple;
+            position: relative;
+            height: 300px;
+        }
+
+        main>section>section>div{
+            background: url("assets/images/monkey.gif");
+
+            width: calc(100%/3);
+            height: 300PX;
+            position: absolute;
+        }
+
+        main>section>section>div:nth-child(2){
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        main>section>section>div:nth-child(3){
+            right: 0;
+        }
+    </style>
+
+</head>
+<body>
+<!--header section-->
+<header>
+    <img src="assets/images/image.png" alt="ijse">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contacts</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+</header>
+<!--main section-->
+<main>
+    <aside>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contacts</li>
+                <li>About Us</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis assumenda sunt praesentium laudantium cum commodi, dolores delectus ad consectetur aliquam rerum. Laborum temporibus reprehenderit molestias explicabo incidunt nisi at quasi.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellendus dolor labore assumenda praesentium vel maiores cumque omnis nobis aliquam facilis ducimus est, deserunt, exercitationem quas necessitatibus atque aut sequi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit illum, cumque expedita doloremque aliquam assumenda, consectetur eos quaerat saepe placeat nostrum accusamus esse omnis at minima debitis aperiam et!</p>
+
+    </section>
+</main>
+
+
+<!--footer section-->
+<footer>
+    <div>Developed by IJSE</div>
+</footer>
+</body>
+</html>
